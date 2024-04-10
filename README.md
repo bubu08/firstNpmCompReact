@@ -11,6 +11,7 @@ https://bubu08.github.io/firstNpmCompReact
 
 
 # Release Versions
+Modify package.json version to {x.x.x}
 Create release/* branch
 commit -m "Release {x.x.x}" 
 {x.x.x}: is version tag to release.

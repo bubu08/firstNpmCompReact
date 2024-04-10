@@ -10,3 +10,10 @@ https://bubu08.github.io/firstNpmCompReact
 
 
 
+# Release Versions
+Create release/* branch
+commit -m "Release {x.x.x}" 
+{x.x.x}: is version tag to release.
+push this branch to github repo.
+
+

@@ -1,6 +1,6 @@
 {
   "name": "thomas-components-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/user-event": "^13.5.0",

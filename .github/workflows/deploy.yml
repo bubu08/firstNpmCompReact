@@ -24,6 +24,8 @@ jobs:
  
   npm-publish:
     if: startsWith(github.ref, 'refs/heads/release/')
+    permissions:
+      contents: write  # This line gives permissions to write to the repository
     name: npm-publish
     runs-on: ubuntu-latest
     steps:

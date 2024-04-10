@@ -10,7 +10,6 @@ permissions:
   id-token: write
 jobs:
   deploy:
-    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.build-publish.outputs.page_url }}
@@ -23,7 +22,6 @@ jobs:
         build_command: npm run build-storybook
 
   npm-publish:
-    if: startsWith(github.ref, 'refs/heads/release/')
     name: npm-publish
     runs-on: ubuntu-latest
     steps:

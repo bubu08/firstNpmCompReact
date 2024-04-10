@@ -28,6 +28,8 @@ jobs:
       contents: write  # This line gives permissions to write to the repository
     name: npm-publish
     runs-on: ubuntu-latest
+    environment:
+      name: release
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
